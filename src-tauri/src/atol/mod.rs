@@ -1,3 +1,5 @@
+mod api;
+
 use serde::{Serialize, Deserialize};
 
 #[derive(Debug, Default, Serialize, Deserialize)]
